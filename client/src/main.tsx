@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { ThirdwebProvider } from '@thirdweb-dev/react';
 
+import { StateContextProvider } from './context';
 import App from './App';
+import './index.css';
 
 // Grab the root element and ensure it exists
 const rootElement = document.getElementById('root');
@@ -18,7 +20,9 @@ const root = ReactDOM.createRoot(rootElement as HTMLElement);
 root.render(
   <ThirdwebProvider activeChain={11155111}> 
     <Router>
-      <App />
+      <StateContextProvider>
+        <App />
+      </StateContextProvider>
     </Router>
   </ThirdwebProvider>
 );
