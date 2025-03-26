@@ -8,7 +8,7 @@ A decentralized crowdfunding application built with React, TypeScript, Tailwind 
 - [Technologies](#technologies)
 - [Prerequisites](#prerequisites)
 - [Running the Project](#running-the-project)
-- [Deployment](#deployment)
+- [Preview](#preview)
 
 ## Features
 
@@ -75,7 +75,7 @@ A decentralized crowdfunding application built with React, TypeScript, Tailwind 
 	-	Connect your wallet using MetaMask (ensure it’s on the correct network, e.g., Sepolia).
 	-	Create campaigns, view details, and fund campaigns.
 
-Here is a preview of the project:
+## Preview of the project
 
 ![Project Screenshot](images/1.png)
 
