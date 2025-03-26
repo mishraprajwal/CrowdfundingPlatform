@@ -42,7 +42,7 @@ A decentralized crowdfunding application built with React, TypeScript, Tailwind 
    cd crowd-funding
    ```
 
-2. Install Dependencies
+2. **Install Dependencies**
 
     ```bash
     cd web3
@@ -61,7 +61,7 @@ A decentralized crowdfunding application built with React, TypeScript, Tailwind 
     npx thirdweb deploy -k yourThirdwebSecretKey
     ```
 
-3. ** Start Development Server**
+3. **Start Development Server**
 
     ```bash
     cd client
@@ -71,6 +71,7 @@ A decentralized crowdfunding application built with React, TypeScript, Tailwind 
     The app will be available at http://localhost:5173.
 
 5.  **Using the App**
+
 	-	Navigate through pages (Home, Profile, Create Campaign, Campaign Details).
 	-	Connect your wallet using MetaMask (ensure it’s on the correct network, e.g., Sepolia).
 	-	Create campaigns, view details, and fund campaigns.
@@ -80,6 +81,6 @@ A decentralized crowdfunding application built with React, TypeScript, Tailwind 
 ![Project Screenshot](images/1.png)
 
 <br><br>
-   
+
 ![Project Screenshot](images/2.png)
 
