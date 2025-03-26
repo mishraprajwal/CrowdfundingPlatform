@@ -29,7 +29,7 @@ interface StateContextProviderProps {
 }
 
 export const StateContextProvider: React.FC<StateContextProviderProps> = ({ children }) => {
-  const { contract } = useContract('0x16350e345da499907Ae26E9881151A414E72B396');
+  const { contract } = useContract('0xf97a038279a5b8243a41e48cd81215998ff7e90d');
   const { mutateAsync: createCampaign } = useContractWrite(contract, 'createCampaign');
 
   const address = useAddress();
