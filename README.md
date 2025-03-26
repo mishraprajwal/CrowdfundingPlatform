@@ -71,9 +71,9 @@ A decentralized crowdfunding application built with React, TypeScript, Tailwind 
     The app will be available at http://localhost:5173.
 
 5.  **Using the App**
-	•	Navigate through pages (Home, Profile, Create Campaign, Campaign Details).
-	•	Connect your wallet using MetaMask (ensure it’s on the correct network, e.g., Sepolia).
-	•	Create campaigns, view details, and fund campaigns.
+	-	Navigate through pages (Home, Profile, Create Campaign, Campaign Details).
+	-	Connect your wallet using MetaMask (ensure it’s on the correct network, e.g., Sepolia).
+	-	Create campaigns, view details, and fund campaigns.
 
 Here is a preview of the project:
 
